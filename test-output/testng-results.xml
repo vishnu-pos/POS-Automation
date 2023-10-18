@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12716" started-at="2023-10-08T14:36:48Z" finished-at="2023-10-08T14:37:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12716" started-at="2023-10-08T14:36:48Z" finished-at="2023-10-08T14:37:00Z">
+      <class name="test.testcase.State_City">
+        <test-method status="PASS" signature="browsersetup()[pri:0, instance:test.testcase.State_City@3b0143d3]" name="browsersetup" is-config="true" duration-ms="4159" started-at="2023-10-08T14:36:48Z" finished-at="2023-10-08T14:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="PASS" signature="loginAsadmin()[pri:0, instance:test.testcase.State_City@3b0143d3]" name="loginAsadmin" duration-ms="8518" started-at="2023-10-08T14:36:52Z" finished-at="2023-10-08T14:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsadmin -->
+      </class> <!-- test.testcase.State_City -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
