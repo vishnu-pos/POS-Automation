@@ -34,6 +34,7 @@ public class EnergyLogin extends BaseClass {
 	public void setUserName(String username) {
 		txtuser.clear();
 		txtuser.sendKeys(username);
+		
 
 	}
 	public void setPassword(String password) {

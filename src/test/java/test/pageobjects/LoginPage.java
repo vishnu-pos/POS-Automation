@@ -16,14 +16,16 @@ public class LoginPage extends BaseClass{
 	WebElement txtuser;
 	@FindBy(name="password")
 	WebElement txtpass;
-	@FindBy(xpath="//button[@type='button']")
-	WebElement icon;
+	/*
+	 * @FindBy(xpath="//button[@type='button']") WebElement icon;
+	 */
 	@FindBy(id=":r1:")
 	WebElement loginbtn;
 	/*
 	// forget password
 	@FindBy(xpath="//b[text()='Forgot password?']']")
 	WebElement forgetpass;
+	
 	
 	@FindBy(id=":r2:")
 	WebElement forgotemail;
@@ -32,14 +34,18 @@ public class LoginPage extends BaseClass{
 	WebElement sendbtn;*/
 	
 	
-	public void setUserName(String username) {
-		txtuser.clear();
-		txtuser.sendKeys(username);
+	public  void setUserName(String username) {
+		txtuser.click();
+		//txtuser.clear();
+	
+	txtuser.sendKeys(username);;
+	
+	
 
 	}
 	public void setPassword(String password) {
-
-		txtpass.clear();
+        txtpass.click();
+		//txtpass.clear();
 		txtpass.sendKeys(password);
 	}
 	
@@ -48,7 +54,8 @@ public class LoginPage extends BaseClass{
 		
 	}
 	
+
+		
+	}
 	
-	
-	
-}
+

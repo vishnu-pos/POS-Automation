@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.List;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.poi.ss.usermodel.Cell;
@@ -179,10 +180,40 @@ public class BaseClass {
 
 
 
-
-
-
-
+	/*
+	 * if (username != null) { txtuser.sendKeys(username); } else { throw new
+	 * IllegalArgumentException("Username cannot be null");
+	 * int count=0;
+	//driver.findElement(By.xpath("//div[@class=' css-1nudpcc-menu']")).click();
+	implicityWait(10);
+	List<WebElement> opts = driver.findElements(By.xpath("//div[@id='react-select-2-option-11']"));
+	for (WebElement web : opts) {
+	String text=web.getText();
+	System.out.println(text);
+	if (text.contains("preactivated")) {
+		web.click();
+		count++;
+		break;
+		
+	}
+		
+	}
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
+      
 
 
 }
